@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventGridTrigger",
+      "name": "event",
+      "direction": "in",
+	  "eventHubName": "testhub", 
+	  "connection": "Endpoint=sb://neibourlyfuncappazuremicrohub.servicebus.windows.net/;SharedAccessKeyName=all-policy;SharedAccessKey=3yTVOyDyn30TeaMv+WDxWLYZALGucB5SL4fX5GvAD28="
+    }
+  ]
+}
